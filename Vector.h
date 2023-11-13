@@ -5,19 +5,21 @@
 #ifndef VECTOR_VECTOR_H
 #define VECTOR_VECTOR_H
 
+template <typename T>
 class Vector {
-public:
-	int* array;
-	int capacity;
-	int length;
+  T *array;
+  size_t capacity;
+  size_t length;
 
-	Vector();
-	explicit Vector(int size);
+ public:
+  Vector();
+  explicit Vector(size_t size);
 
-	void push_back(int element);
-	void insert(int index, int element);
-	int operator[](int index) const;
+  constexpr size_t size() { return length; }
+
+  inline void push_back(T element) { insert(length, element); }
+  void insert(size_t index, T element);
+  T &operator[](size_t index) const;
 };
 
-
-#endif //VECTOR_VECTOR_H
+#endif  // VECTOR_VECTOR_H
