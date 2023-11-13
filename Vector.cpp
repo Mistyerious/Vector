@@ -40,3 +40,8 @@ T &Vector<T>::operator[](size_t index) const {
 
   return array[index];
 }
+
+template <typename T>
+Vector<T>::~Vector() {
+  delete[] array;
+}
