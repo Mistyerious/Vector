@@ -1,41 +1,47 @@
 //
 // Created by dyeaaaronjr on 11/13/2023.
+// Modified by null8626 on 14/11/2023.
 //
 
-#include <iostream>
-#include <optional>
 #include "Vector.h"
 
-Vector::Vector() {
-	this->capacity = 1;
-	this->array = new int[1];
-	this->length = 0;
+#include <iostream>
+#include <stdexcept>
+
+template <typename T>
+Vector<T>::Vector() : capacity(1), array(new T[1]), length(0) {}
+
+template <typename T>
+Vector<T>::Vector(size_t size)
+    : capacity(size), array(new T[size]), length(0) {}
+
+template <typename T>
+void Vector<T>::insert(size_t index, T element) {
+  if (index >= length) {
+    length = index + 1;
+
+    if (length >= capacity) {
+      while (capacity < length) {
+        capacity *= 2;
+      }
+
+      std::realloc(array, capacity * sizeof(T));
+    }
+  }
+
+  array[index] = element;
 }
 
-Vector::Vector(int size) {
-	this-> capacity = size;
-	this-> array = new int[size];
-	this-> length = 0;
+template <typename T>
+T &Vector<T>::operator[](size_t index) const {
+  if (index >= length) {
+    throw std::range_error("index out of range");
+  }
+
+  return array[index];
 }
 
-void Vector::push_back(int element) {
-
-}
-void Vector::insert(int index, int element) {
-
-	if(this->length == this->capacity) {
-		this->capacity *= 2;
-		std::realloc(this->array, this->capacity);
-	}
-
-	this->array[index] = element;
-
-	this->length += 1;
-}
-
-int Vector::operator[](int index) const {
-	if(index >= this->length) {
-		{}
-	}
-	return this->array[index];
+template <typename T>
+Vector<T>::~Vector() {
+  delete[] array;
 }
