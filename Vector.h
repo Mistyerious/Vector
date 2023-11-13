@@ -20,6 +20,7 @@ class Vector {
   inline void push_back(T element) { insert(length, element); }
   void insert(size_t index, T element);
   T &operator[](size_t index) const;
+  ~Vector();
 };
 
 #endif  // VECTOR_VECTOR_H
