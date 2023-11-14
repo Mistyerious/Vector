@@ -101,8 +101,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dhk38z"
-      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dhk38z"
+      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9l7khx"
+      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9l7khx"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0"
@@ -111,10 +111,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dhk38z
+        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9l7khx
         
-        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_6d754 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_6d754.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_6d754.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_6d754.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
-        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_6d754.dir/CMakeCCompilerABI.c.obj -o cmTC_6d754.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6d754.lib -Xlinker /pdb:cmTC_6d754.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_f4091 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_f4091.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_f4091.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_f4091.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_f4091.dir/CMakeCCompilerABI.c.obj -o cmTC_f4091.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f4091.lib -Xlinker /pdb:cmTC_f4091.pdb -Xlinker /version:0.0     && cd ."
         
       exitCode: 0
   -
@@ -126,8 +126,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cjoel6"
-      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cjoel6"
+      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fkzmvw"
+      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fkzmvw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0"
@@ -136,10 +136,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cjoel6
+        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fkzmvw
         
-        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_de621 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_de621.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_de621.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_de621.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_de621.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_de621.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_de621.lib -Xlinker /pdb:cmTC_de621.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_47b81 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_47b81.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_47b81.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_47b81.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_47b81.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_47b81.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_47b81.lib -Xlinker /pdb:cmTC_47b81.pdb -Xlinker /version:0.0     && cd ."
         
       exitCode: 0
   -
@@ -154,8 +154,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zhupav"
-      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zhupav"
+      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j3uah5"
+      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j3uah5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0"
@@ -164,10 +164,10 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zhupav
+        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j3uah5
         
-        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_77b75 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_77b75.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_77b75.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_77b75.dir/feature_tests.cxx.obj -c C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zhupav/feature_tests.cxx
-        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_77b75.dir/feature_tests.cxx.obj -o cmTC_77b75.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_77b75.lib -Xlinker /pdb:cmTC_77b75.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_43426 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_43426.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_43426.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_43426.dir/feature_tests.cxx.obj -c C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j3uah5/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_43426.dir/feature_tests.cxx.obj -o cmTC_43426.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_43426.lib -Xlinker /pdb:cmTC_43426.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -182,8 +182,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9s5865"
-      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9s5865"
+      source: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddpwwg"
+      binary: "C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddpwwg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0"
@@ -192,10 +192,10 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9s5865
+        Change Dir: C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddpwwg
         
-        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_83680 && [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_83680.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_83680.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_83680.dir/feature_tests.cxx.obj -c C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9s5865/feature_tests.cxx
-        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_83680.dir/feature_tests.cxx.obj -o cmTC_83680.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_83680.lib -Xlinker /pdb:cmTC_83680.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe -v cmTC_3d1ed && [1/2] C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_3d1ed.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_3d1ed.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_3d1ed.dir/feature_tests.cxx.obj -c C:/Dev/Vector/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddpwwg/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console CMakeFiles/cmTC_3d1ed.dir/feature_tests.cxx.obj -o cmTC_3d1ed.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_3d1ed.lib -Xlinker /pdb:cmTC_3d1ed.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
 ...
